@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>
+            Login
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <div id='login-box' class='box'>
+            <!--form method="post" action=""-->
+                <label id='label0' class='label0'>Log in / Sign up</label><br>
+                <label id='username_label'></label>
+                <br>
+                <div id='reset_div' class='reset_div'>Reset</div>
+                <input id='input0' name='input0' class='input' placeholder='Username or Email ID'><br>
+                <button id='button0' class='button0'>Next</button>
+            <!--/form-->
+        </div>
+
+        <div id='signup-box' class="box">
+            <!--form method="post" action=""-->
+                <label class='label0'>Sign up</label><br>
+                <br>
+                <div id='reset_div2' class='reset_div' name='reset_div2'>Reset</div>
+                <br>
+                <label class="label1">Name</label>
+                <input id='signup_name' class="input" name='signup_name'>
+                <br><br>
+
+                <label id='signup_email_warning' class="label-warning">An account with this email id already exists</label><br>
+                <label class="label1">Email</label>
+                <input id='signup_email' name='signup_email' class="input" placeholder="example@example.com">
+                <br><br>
+
+                <label id='signup_username_warning' class="label-warning">Username already in use</label><br>
+                <label class="label1">Username</label>
+                <input id='signup_username' name='signup_username' class="input">
+                <br><br>
+                <br>
+                <label class="label1">Password</label>
+                <input id='signup_pw1' name='signup_pw1' class="input" type="password">
+                <br><br>
+
+                <label id='signup_pw_warning' class="label-warning">Password do not match</label><br>
+                <label class="label1">Confirm password</label>
+                <input id='signup_pw2' class="input" type="password">
+                <br><br>
+
+                <button id='button_signup' class='button0'>Sign up</button>
+            <!--/form-->
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
